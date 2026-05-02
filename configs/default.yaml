@@ -1,0 +1,11 @@
+# Default configuration for MultiModalAgent
+    llm:
+      provider: "mimo"
+      api_key: "YOUR_API_KEY_HERE"
+
+    video:
+      resolution: "1080p"
+      style_transfer: true
+
+    audio:
+      tts_model: "default"
